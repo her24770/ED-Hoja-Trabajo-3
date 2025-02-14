@@ -1,3 +1,8 @@
+/**
+ * Ordenamiento tipo Insertion que recorre una lista desordenada e inserta 
+ * progresivamente cada elemento en su posición correcta dentro de la parte ordenada
+ * Adaptada de: https://www.geeksforgeeks.org
+ */
 public class InsertionSort {
     public static <T extends Comparable<T>> void insertionSort(T[] arr){
         if(arr != null){
