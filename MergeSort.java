@@ -1,3 +1,8 @@
+/**
+ * Ordenamiento tipo Merge Sort que divide recursivamente una lista desordenada en mitades,
+ * ordena cada mitad y luego combina (merge) las mitades ordenadas para obtener la lista final ordenada.
+ * Adaptada de: https://www.geeksforgeeks.org
+ */
 public class MergeSort {
     
     public static <T extends Comparable<T>> void merge(T[] arr, int l, int m, int r) {
@@ -42,12 +47,12 @@ public class MergeSort {
     }
 
     // Método recursivo para ordenar el arreglo
-    public static <T extends Comparable<T>> void sortMergeSort(T[] arr, int l, int r) {
+    public static <T extends Comparable<T>> void sort(T[] arr, int l, int r) {
         if (l < r) {
             int m = l + (r - l) / 2;
 
-            sortMergeSort(arr, l, m);
-            sortMergeSort(arr, m + 1, r);
+            sort(arr, l, m);
+            sort(arr, m + 1, r);
 
             merge(arr, l, m, r);
         }
