@@ -4,6 +4,8 @@
  * Sección: 30
  * Hoja de Trabajo 3
  * @Author: Josue Hernández 24770 y Gabriel Hidalgo 24939
+ * Fecha de creación: 13/02/2025
+ * Última modificación: 13/02/2025
  */
 
 import java.io.File;
