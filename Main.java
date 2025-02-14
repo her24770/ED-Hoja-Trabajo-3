@@ -21,9 +21,9 @@ public class Main {
 
     // funcion para crear archivo con numeros aleatorios
     public static void createFile() {
-        try (FileWriter writer = new FileWriter("data.txt")) {
+        try (FileWriter escribirtxt = new FileWriter("data.txt")) {
             for (int i = 0; i < 3000; i++) {
-                writer.write((int) (Math.random() * 5000) + " ");
+                escribirtxt.write((int) (Math.random() * 5000) + " ");
             }
         } catch (IOException e) {
             System.out.println("Error: " + e.getMessage());
