@@ -7,15 +7,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
+        Scanner scanner = new Scanner(System.in);
         createFile();
-
         List<Integer> numeros = readFile();
 
-        System.out.println("Números leídos del archivo:");
-        for (int numero : numeros) {
-            System.out.print(numero + " ");
-        }
+        
+
+        scanner.close();
     }
 
 

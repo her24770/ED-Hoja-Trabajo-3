@@ -1,3 +1,8 @@
+ /**
+ * Ordenamiento tipo Insertion que recorre una lista desordenada e inserta
+ * progresivamente cada elemento en su posición correcta dentro de la parte ordenada.
+ * Adaptada de: https://www.geeksforgeeks.org
+ */
 import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;

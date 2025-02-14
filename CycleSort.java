@@ -1,3 +1,8 @@
+/**
+ * Ordenamiento tipo Cycle que reorganiza una lista moviendo los elementos directamente
+ * a su posición correcta. Se basa en detectar ciclos de intercambio y rotar los elementos dentro de dichos ciclos.
+ * Adaptado de: https://www.geeksforgeeks.org
+ */
 public class CycleSort {
     public static <T extends Comparable<T>> void cycleSort(T[] arr, int n) {
         // count number of memory writes
